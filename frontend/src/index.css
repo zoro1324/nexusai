@@ -1,0 +1,46 @@
+:root {
+  --surface-0: #070d1a;
+  --surface-1: rgba(11, 16, 30, 0.9);
+  --surface-2: rgba(255, 255, 255, 0.05);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #8a9ab5;
+  --border-soft: rgba(148, 163, 184, 0.18);
+  --border-strong: rgba(148, 163, 184, 0.36);
+  --focus-ring: #60a5fa;
+
+  --font-body: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Trebuchet MS', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+  --ease-out-smooth: cubic-bezier(0.19, 1, 0.22, 1);
+
+  color-scheme: dark;
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100svh;
+  width: 100%;
+}
+
+body {
+  background: var(--surface-0);
+  color: var(--text-primary);
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
